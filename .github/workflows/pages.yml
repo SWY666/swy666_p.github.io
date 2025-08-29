@@ -2,7 +2,7 @@ name: Build and Deploy Jekyll site
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ]   # 如果默认分支是 master 就改 master
   workflow_dispatch:
 
 permissions:
@@ -22,17 +22,20 @@ jobs:
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'
-          bundler-cache: false   # 关闭自动 bundle install
+          ruby-version: '3.1'     # ← 关键：固定到 3.1
+          bundler-cache: false
 
       - name: Make Gemfile.lock Linux-compatible
         run: |
           if [ -f Gemfile.lock ]; then
             bundle lock --add-platform x86_64-linux
+            bundle lock --add-platform ruby
           fi
 
       - name: Install dependencies
-        run: bundle install --jobs 4
+        run: |
+          bundle config set path vendor/bundle
+          bundle install --jobs 4
 
       - name: Build with Jekyll
         env:

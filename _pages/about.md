@@ -30,7 +30,7 @@ My research interest includes:
 - Nondestructive testing equipment
 
 
-<!-- # 🎓 Educations 
+# 🎓 Educations 
 - *2016.06 - 2022.12*, <a href="http://english.hust.edu.cn/"><img class="svg" src="/images/HUST_logo.svg" width="23pt"></a> School of Mechanical Science and Engineering, Huazhong University of Science and Technology, Wuhan China. 
 - *2012.09 - 2016.06*, <a href="https://en.scu.edu.cn/"><img class="svg" src="/images/SCU_logo.svg" width="20pt"></a> School of Manufacturing Science and Engineering, Sichuan University, Chengdu China. 
  
@@ -166,5 +166,5 @@ My research interest includes:
 # 🏭 Internships
 - *2018.05 - 2020.02*, Chongqing Changjiang Bearing Co., Ltd., Chongqing China.
 - *2020.11.25 - 2020.12.02*, Hubei Xinyegang Steel Ltd., Huangshi China.
-- *2017.6 - 2021.1*, Wuhan Huayu-M Testing Equipment Co., Ltd., Wuhan China. -->
+- *2017.6 - 2021.1*, Wuhan Huayu-M Testing Equipment Co., Ltd., Wuhan China.
   
